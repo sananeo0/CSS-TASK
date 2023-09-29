@@ -1,0 +1,23 @@
+.content-table{
+    border-collapse: collapse;
+    min-width: 400px; 
+    border-style: solid;
+    border-color: chocolate;
+    border-width: 2px;
+}
+.content-table thead th:not(:last-child) {
+    border-right: 1px dashed yellow;
+}
+.content-table thead tr {
+    background-color: mediumturquoise;    
+    font-weight: bold;
+}
+.content-table td,th{
+    border: 1px dashed black;
+    padding: 12px 15px;
+    color: rgb(0, 0, 55);
+    text-align: left; 
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: mediumturquoise;
+}
